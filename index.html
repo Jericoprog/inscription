@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <title>Exercice sur la création d'un formulaire</title>
+    <style type="text/css" media="all">
+       
+    .logo{
+        width: 60px;
+        height: 60px;
+        margin-right: 10px;
+        border-radius: 50%;
+    }
+    header{
+        display: flex;
+
+
+       
+    }
+  .header{
+       background-color:#00ffff;
+       padding: 10px;
+       margin: -7px;
+  }
+
+        .navbar{
+            display:flex;
+            
+            text-align: left;
+            margin-left: 30%;
+        }
+        a{
+            text-align: right;
+         padding: 5px;
+            color: gray;
+        }
+        .panier{
+            width: 20px;
+            height: 20px;
+        }
+    body{
+        width: auto;
+        height: auto;
+        
+    }
+        h1{
+            margin-top: 15px;
+            text-align: center;
+            
+        }
+        .container{
+          
+            width: 60%;
+            border: 3px solid ;
+            padding: 25px;
+            text-align: center;
+            border-radius: 30px 0 30px 30px;
+            background-color: #00ffff;
+            margin-top: 15%;
+            margin-left: 13%;
+        }
+        #Soumettre{
+            background-color: gold;
+            padding: 5px ;
+            border-radius: 15px;
+        }
+        .text{
+            color: gray;
+            text-align: center;
+        }
+                footer{
+            text-align: center;
+            background-color: #00ffff;
+            margin: -12px;
+            margin-top: 8%;
+            padding: 10px;
+        }
+        
+    </style>
+    
+</head>
+
+<body>
+    <div class="header">
+    <header >
+        <div>
+           <img src="https://i.ibb.co/hWh0GF1/logo.jpg" alt=" logo" class="logo"/>
+        </div>
+  <div class="en-tête">
+      <h3>Tendance Hommes</h3>
+  </div>
+<div class="navbar">
+    <a href="accueil.html">accueil</a>
+    <a href="#">nouvautés</a>
+    <a href="/storage/emulated/0/htdocs/ecommerce/formulaire_ecommerce.html">inscription</a>
+    <img class="panier" src="https://i.ibb.co/hXX2Tcf/panier.jpg" alt="panier" />
+</div>
+    </header>
+    <br />
+ <div>Bienvenu dans notre boutique en ligne!</div>
+</div> <br /> <br /><br />
+
+    <h1>FORMULAIRE D'INSCRIPTION</h1>
+    <br />
+    <div class="text">
+        Nous vous invitons à remplir le formulaire ci-dessous <br />pour être prioritairement tenu au courant de nos nouveautés.
+    </div>
+<div class="container">
+        <form action="formulaire_ecommerce.php" method="POST">
+        <label for="nom">Nom:</label>
+        <input type="text" name="nom" id="" value="" required/>
+        <br /><br />
+                <label for="prenom">Prenom:</label>
+        <input type="text" name="prenom" id="" value="" required/>
+        <br /><br />
+        
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="" value="" required/>
+        <br /><br />
+        
+        <label for="Numéro">Numéro (de préférence N° whatsapp):</label>
+        <input type="number" name="numero" id="" value="" />
+        <br /><br />
+        <input type="submit"  value="Soumettre" id="Soumettre"/>
+    </form>
+    </div>
+    <br /><br /><br /><br />
+    <footer>
+    <div class="">
+        &copy; Tendance Hommes 2024
+    </div>
+</footer>
+
+</body>
+</html>
